@@ -1,9 +1,5 @@
 # Overview
-This project demonstrates the use of MongoDB for querying and analyzing an employee database. The dataset contains employee details such as salary, department, years of experience, and bonuses. We developed meaningful queries to extract valuable insights, leveraging MongoDB Atlas for advanced data analysis and visualization.
-
-# Features
-Queries Developed
-Implemented 12 meaningful, non-trivial queries, including:
+This project demonstrates the use of MongoDB for querying and analyzing an employee database. The dataset contains employee details such as salary, department, years of experience, and bonuses. Developed meaningful queries to extract valuable insights, leveraging MongoDB Atlas for advanced data analysis and visualization.
 
 # Aggregation Queries:
 Calculate the average salary and total number of employees for each department.
