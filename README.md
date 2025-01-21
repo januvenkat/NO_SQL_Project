@@ -1,24 +1,26 @@
-# NO_SQL_Project
+# Overview
+This project demonstrates the use of MongoDB for querying and analyzing an employee database. The dataset contains employee details such as salary, department, years of experience, and bonuses. We developed meaningful queries to extract valuable insights, leveraging MongoDB Atlas for advanced data analysis and visualization.
 
-Develop minimum 12 Queries (meaningful, non-trivial and useful)
-•	At least 4 of these queries should be Aggregation
-•	At least 2 queries – using a mix of comparison and logical operators
-•	At least 2 queries – using $expr 
-•	At least 4 queries – based on arrays, sub documents and similar   
+# Features
+Queries Developed
+Implemented 12 meaningful, non-trivial queries, including:
 
-Develop minimum 2 Charts using Mongo Atlas
-**Aggregation Queries:**
-1. Find the average salary and total number of employees for each department.
-2. Identify the department with the highest average experience.
-3. Find the department with the most employees earning a bonus greater than $5,000.
-4. Identify the distribution of employees based on their years of experience (in ranges).
+# Aggregation Queries:
+Calculate the average salary and total number of employees for each department.
+Identify the department with the highest average experience.
+Find the department with the most employees earning bonuses greater than $5,000.
+Analyze the distribution of employees based on their years of experience (grouped into ranges).
 
-**Comparison and Logical Operators Queries:**
-5. Find employees with a salary greater than the average salary in the "Sales" department.
-6. Find employees who are in the "Finance" department and have a salary greater than $90,000 or are younger than 30.
+# Comparison and Logical Operators:
+Find employees with a salary greater than the average salary in the "Sales" department.
+Identify employees in the "Finance" department with a salary greater than $90,000 or younger than 30.
 
-**$expr Queries:**
-7. Find employees with a bonus greater than twice their salary.
-8. Find employees who joined the company before the age of 25 and have more than 5 years of experience.
+# $expr Queries:
+Find employees with a bonus greater than twice their salary.
+Identify employees who joined the company before the age of 25 and have more than 5 years of experience.
 
-
+# Array and Sub-document Queries:
+Extract employees with specific skills in their skillset array.
+Identify employees with addresses in a specific city within a nested document.
+List employees assigned to multiple projects based on their project IDs.
+Fetch employees with specific certifications in their profiles.
